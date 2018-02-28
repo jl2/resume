@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+  <head>
+    <meta http-equiv="Content-Type" content="text/xml; charset=utf-8" />
+    <meta name="description" content="Jeremiah LaRocco's resume." />
+    <meta name="keywords" content="Jeremiah, LaRocco, resume" />
+    <meta name="robots" content="index, follow" />
+    <style type="text/css">
+      * {
+      font-family: inherit;
+      font-size: inherit;
+      }
+      
+      *.body {
+      font-family: serif;
+      text-align: center;
+      }
+
+      div.section {
+      margin-top: 10pt;
+      }
+
+      div.header {
+      font-family: monospace;
+      text-align: center;
+      }
+
+      div.resume {
+      margin-left: auto;
+      margin-right: auto;
+      }
+      
+      div.resumeBody {
+      text-align: left;
+      }
+
+      h1.nameHeader {
+      font-size: 140%;
+      font-weight: bold;
+      }
+
+      p.contactInfo {
+      margin-top: -5pt;
+      }
+
+      h2.sectionHeader {
+      font-size: 140%;
+      font-weight: bold;
+      }
+
+      div.company {
+      width: 100%;
+      }
+
+      *.companyHeader {
+      width: 100%;
+      }
+
+      div.companyBody {
+      margin-top: -2pt;
+      }
+
+      *.companyName {
+      font-weight: bold;
+      border-bottom: 1pt dotted black
+      }
+
+      *.positionDate {
+      float: right;
+      font-weight: bold;
+      }
+
+      *.positionTitle {
+      text-decoration: underline;
+      }
+    </style>
+    <style type="text/css" media="screen">
+      *.body {
+      font-family: serif;
+      text-align: center;
+      width: 70%;
+      }
+
+      div.resume {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      }
+    </style>
+    <style type="text/css" media="print">
+      *.body {
+      font-family: serif;
+      text-align: center;
+      width: 100%;
+      }
+
+      div.resume {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      }
+    </style>
+    
+    <title>Jeremiah LaRocco's Resume</title>
+  </head>
+  <body>
+    <div class="resume">
+      <div class="header">
+        <h1 class="nameHeader">Jeremiah LaRocco</h1>
+        <p class="contactInfo">3455 Table Mesa Blvd. Apt i203 &bull; Boulder, CO 80305</p>
+        <p class="contactInfo">jeremiah_larocco@fastmail.com &bull;  719-761-7480</p>
+      </div>
+
+      <div class="resumeBody">
+        <div class="section">
+          <h2 class="sectionHeader">Summary</h2>
+          <p></p>
+        </div>
+
+        <div class="section">
+
+          <h2 class="sectionHeader">Experience</h2>
+          <div class="company">
+            <div class="companyHeader">
+              <div class="positionDate">July 2013 - Present</div>
+              <div class="companyName">NetApp (previously SolidFire)</div>
+              <div class="positionTitle">Software Engineer</div>
+            </div>
+            <div class="companyBody">
+              <ul>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="company">
+            <div class="companyHeader">
+              <div class="positionDate">March 2009 - June 2013</div>
+              <div class="companyName">Spatial Corporation</div>
+              <div class="positionTitle">Software Engineer</div>
+            </div>
+            <div class="companyBody">
+              <ul>
+                <li>Worked on the Interop translation portion of the new CATIA Geometric Modeller (CGM) based product.  Used C++, Python and Scheme for test generation</li>
+                <li>Used Python to streamline development.</li>
+                <li>Used Agile development in the Productivity and Tools group to develop the internal &quot;TestCenter&quot; web application.  Used Java, JSP, JUnit, MySQL and Tomcat.</li>
+                <li>Maintained the &quot;Quality Checker&quot; (QC) component of TestCenter in C++.</li>
+                <li>Participated in a team room with Interop developers to develop the beta release of the CGM Writer component.</li>
+                <li>Participated in a team room with ACIS developers to develop of new CGM componenent.</li>
+                <li>Refactored code in TestCenter, QC, Interop, and CGM to improve readability and efficiency.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="company">
+            <div class="companyHeader">
+              <div class="positionDate">May 2007 - October 2008</div>
+              <div class="companyName">L3 Communications</div>
+              <div class="positionTitle">Software Engineer</div>
+            </div>
+            <div class="companyBody">
+              <ul>
+                <li>Initially worked in the &quot;DBA Group&quot;, developing a web interface for creating, verifying, and managing Unique Identifier (UID) labels</li>
+                <li>Took over development of the internal DBA website</li>
+                <li>Created a C++ application for hand-held bar code scanners to communicate with existing inventory management system.</li>
+                <li>Volunteered for, and eventually moved to, a &quot;Systems&quot; development position, writing Jovial and x86 assembly language for the Automated Remote Tracking Station Software (ARTS)</li>
+                <li>Assisted with maintenance and deployment of ARTS at customer sites</li>
+                <li>This position required a Secret level security clearance</li>
+              </ul>
+            </div>
+          </div>
+          <div class="company">
+            <div class="companyHeader">
+              <div class="positionDate">March 2007 - May 2007</div>
+              <div class="companyName">The Library Corporation</div>
+              <div class="positionTitle">Software Engineer</div>
+            </div>
+            <div class="companyBody">
+              <ul>
+                <li>Maintained 1.5 million lines of C++ code using DCE RPC, Oracle 10g, and Solaris for the server portion of the CarlX library management system.</li>
+                <li>Used Ruby to automate testing and bug reproduction.</li>
+                <li>Refactored code to improve readability and efficiency.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="company">
+            <div class="companyHeader">
+              <div class="positionDate">March 2006 - February 2007</div>
+              <div class="companyName">Verizon Business</div>
+              <div class="positionTitle">Application Developer</div>
+            </div>
+            <div class="companyBody">
+              <ul>
+                <li>Developed call routing applications for Verizon's Next Generation Service Network (NGSN).</li>
+                <li>Performed QA on applications built by other developers.</li>
+                <li>Performed troubleshooting and corrected trouble tickets.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="company">
+            <div class="companyHeader">
+              <div class="positionDate">February 2004 - March 2006</div>
+              <div class="companyName">Carmichael Training Systems</div>
+              <div class="positionTitle">Junior Programmer</div>
+            </div>
+            <div class="companyBody">
+              <ul>
+                <li>Developed coaching tool and member's website using Java, J2EE, JSP, Hibernate, Struts, and MySQL</li>
+                <li>Created Perl and Visual Basic 6 utilities.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <h2 class="sectionHeader">Education</h2>
+          <div class="company">
+            <div class="companyHeader">
+              <div class="positionDate">2000-2004</div>
+              <div class="companyName">University of Colorado At Colorado Springs</div>
+            </div>
+            <div class="companyBody">
+              <p>
+                Received Bachelor of Science in Computer Science with minor in Economics
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <h2 class="sectionHeader">Open Source</h2>
+          <p>
+            In my free time I've released a number of small projects as open source, most of which are available at <a href="https://github.com/jl2">https://github.com/jl2</a>.
+          </p>
+        </div>
+        <div class="section">
+          <h2 class="sectionHeader">References</h2>
+          <p>
+            Available upon request.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
