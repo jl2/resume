@@ -128,7 +128,11 @@
             </div>
             <div class="companyBody">
               <ul>
-                <li></li>
+                <li>Responsible for several small features and product enhancements, including network fault detection improvements, error message improvements, and API improvements and optimizations.</li>
+                <li>Refactored the drive management sub-system that is responsible for starting and stopping Solidfire services across the cluster in response to API calls, physical drive changes, and other cluster events.</li>
+                <li>Worked on the White Box Testing team to improve the testability of the Solidfire application, including work the Recorder structured logging system.</li>
+                <li>Fixed bugs and improved code quality using code coverage and static analysis tools (Coverity).</li>
+                <li>Responded to support escalations</li>
               </ul>
             </div>
           </div>
