@@ -128,11 +128,12 @@
             </div>
             <div class="companyBody">
               <ul>
-                <li>Responsible for several small features and product enhancements, including network fault detection improvements, error message improvements, and API improvements and optimizations.</li>
-                <li>Refactored the drive management sub-system that is responsible for starting and stopping Solidfire services across the cluster in response to API calls, physical drive changes, and other cluster events.</li>
-                <li>Worked on the White Box Testing team to improve the testability of the Solidfire application, including work the Recorder structured logging system.</li>
-                <li>Fixed bugs and improved code quality using code coverage and static analysis tools (Coverity).</li>
-                <li>Responded to support escalations</li>
+                <li>I work on the Element software that controls our storage system.</li>
+                <li>I was responsible for refactoring, and then maintaining, the drive management sub-system, which is responsible for keeping track of drives and starting and stopping the services associated with them.</li>
+                <li>I also work on smaller features and enhancements, including improvements to fault detection, API improvements, and hardware monitoring.</li>
+                <li>I was previously on the White Box Testing Team, and we added the Recorder sub-system that's responsible for the structured logging inside the Element software.</li>
+                <li>Use code coverage, static analysis, and similar tools to improve code and reduce bugs.</li>
+                <li>Respond to support escalations</li>
               </ul>
             </div>
           </div>
@@ -149,8 +150,8 @@
                 <li>Used Python to streamline development.</li>
                 <li>Used Agile development in the Productivity and Tools group to develop the internal &quot;TestCenter&quot; web application.  Used Java, JSP, JUnit, MySQL and Tomcat.</li>
                 <li>Maintained the &quot;Quality Checker&quot; (QC) component of TestCenter in C++.</li>
-                <li>Participated in a team room with Interop developers to develop the beta release of the CGM Writer component.</li>
-                <li>Participated in a team room with ACIS developers to develop of new CGM componenent.</li>
+                <li>Participated in a &quot;team room&quot; with Interop developers to develop the beta release of the CGM Writer component.</li>
+                <li>Participated in a &quot;team room&quot; with ACIS developers to develop of new CGM componenent.</li>
                 <li>Refactored code in TestCenter, QC, Interop, and CGM to improve readability and efficiency.</li>
               </ul>
             </div>
