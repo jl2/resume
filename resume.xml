@@ -114,7 +114,7 @@
       <div class="resumeBody">
         <div class="section">
           <h2 class="sectionHeader">Summary</h2>
-          <p></p>
+          <p>Polyglot software engineer seeking remote position.</p>
         </div>
 
         <div class="section">
@@ -122,18 +122,36 @@
           <h2 class="sectionHeader">Experience</h2>
           <div class="company">
             <div class="companyHeader">
-              <div class="positionDate">July 2013 - Present</div>
-              <div class="companyName">NetApp (previously SolidFire)</div>
+              <div class="positionDate">December - Present</div>
+              <div class="companyName">Thermopylae Sciences and Technology</div>
               <div class="positionTitle">Software Engineer</div>
             </div>
             <div class="companyBody">
               <ul>
-                <li>I work on the Element software that controls our storage system.</li>
-                <li>I was responsible for refactoring, and then maintaining, the drive management sub-system, which is responsible for keeping track of drives and starting and stopping the services associated with them.</li>
-                <li>I also work on smaller features and enhancements, including improvements to fault detection, API improvements, and hardware monitoring.</li>
-                <li>I was previously on the White Box Testing Team, and we added the Recorder sub-system that's responsible for the structured logging inside the Element software.</li>
-                <li>Use code coverage, static analysis, and similar tools to improve code and reduce bugs.</li>
-                <li>Respond to support escalations</li>
+                <li>I work primarily on GEEP, a value added product based on OpenGEE.</li>
+                <li>I develop plugins and other tools to integrate OpenGEE into third party software, such as ATAK and WinTAK.</li>
+                <li>I add new features and fix bugs in OpenGEE, GEEP and the TAK plugins.</li>
+                <li>I review and test pull requests from my coworkers and open source developers.</li>
+                <li>I assist with our build and packaging pipelines.</li>
+                <li>I help with manual and semi-automated testing.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="company">
+            <div class="companyHeader">
+              <div class="positionDate">July 2013 - November 2018</div>
+              <div class="companyName">NetApp (formerly SolidFire)</div>
+              <div class="positionTitle">Software Engineer</div>
+            </div>
+            <div class="companyBody">
+              <ul>
+                <li>Worked on the Element software that controled our storage system.</li>
+                <li>Responsible for refactoring, and then maintaining, the drive management sub-system, which is responsible for keeping track of drives and starting and stopping the services associated with them.</li>
+                <li>Worked on smaller features and enhancements, including improvements to fault detection, API improvements, and hardware monitoring.</li>
+                <li>Spent some time on the White Box Testing Team, and we added the Recorder sub-system that's responsible for structured logging inside the Element software.</li>
+                <li>Used code coverage, static analysis, and similar tools to improve code and reduce bugs.</li>
+                <li>Occassionally "on call" for support escalations.</li>
               </ul>
             </div>
           </div>
@@ -146,16 +164,15 @@
             </div>
             <div class="companyBody">
               <ul>
-                <li>Worked on the Interop translation portion of the new CATIA Geometric Modeller (CGM) based product.  Used C++, Python and Scheme for test generation</li>
-                <li>Used Python to streamline development.</li>
+                <li>Worked on the Interop translation portion of the new CATIA Geometric Modeller (CGM) based product.  Used C++, Python and Scheme for test generation.</li>
                 <li>Used Agile development in the Productivity and Tools group to develop the internal &quot;TestCenter&quot; web application.  Used Java, JSP, JUnit, MySQL and Tomcat.</li>
                 <li>Maintained the &quot;Quality Checker&quot; (QC) component of TestCenter in C++.</li>
                 <li>Participated in a &quot;team room&quot; with Interop developers to develop the beta release of the CGM Writer component.</li>
                 <li>Participated in a &quot;team room&quot; with ACIS developers to develop of new CGM componenent.</li>
-                <li>Refactored code in TestCenter, QC, Interop, and CGM to improve readability and efficiency.</li>
               </ul>
             </div>
           </div>
+          <br/>
           <div class="company">
             <div class="companyHeader">
               <div class="positionDate">May 2007 - October 2008</div>
@@ -164,12 +181,12 @@
             </div>
             <div class="companyBody">
               <ul>
-                <li>Initially worked in the &quot;DBA Group&quot;, developing a web interface for creating, verifying, and managing Unique Identifier (UID) labels</li>
-                <li>Took over development of the internal DBA website</li>
+                <li>Initially worked in the &quot;DBA Group&quot;, developing a web interface for creating, verifying, and managing Unique Identifier (UID) labels.</li>
+                <li>Took over development of the internal DBA website.</li>
                 <li>Created a C++ application for hand-held bar code scanners to communicate with existing inventory management system.</li>
-                <li>Volunteered for, and eventually moved to, a &quot;Systems&quot; development position, writing Jovial and x86 assembly language for the Automated Remote Tracking Station Software (ARTS)</li>
-                <li>Assisted with maintenance and deployment of ARTS at customer sites</li>
-                <li>This position required a Secret level security clearance</li>
+                <li>Volunteered for, and eventually moved to, a &quot;Systems&quot; development position, writing Jovial and x86 assembly language for the Automated Remote Tracking Station Software (ARTS).</li>
+                <li>Assisted with maintenance and deployment of ARTS at customer sites.</li>
+                <li>This position required a Secret level security clearance.</li>
               </ul>
             </div>
           </div>
@@ -207,12 +224,6 @@
               <div class="companyName">Carmichael Training Systems</div>
               <div class="positionTitle">Junior Programmer</div>
             </div>
-            <div class="companyBody">
-              <ul>
-                <li>Developed coaching tool and member's website using Java, J2EE, JSP, Hibernate, Struts, and MySQL</li>
-                <li>Created Perl and Visual Basic 6 utilities.</li>
-              </ul>
-            </div>
           </div>
         </div>
         <div class="section">
@@ -232,7 +243,7 @@
         <div class="section">
           <h2 class="sectionHeader">Open Source</h2>
           <p>
-            In my free time I've released a number of small projects as open source, most of which are available at <a href="https://github.com/jl2">https://github.com/jl2</a>.
+            In my free time I've released a number of small open source projects which are available on <a href="https://github.com/jl2">GitHub</a> and <a href="https://git.sr.ht/~jl2/">SourceHut</a>.
           </p>
         </div>
         <div class="section">
