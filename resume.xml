@@ -99,6 +99,16 @@
       margin-left: auto;
       margin-right: auto;
       }
+
+      a:link {
+      color: inherit;
+      text-decoration: inherit;
+      }
+
+      a:visited {
+      color: inherit;
+      text-decoration: inherit;
+      }
     </style>
     
     <title>Jeremiah LaRocco's Resume</title>
@@ -108,7 +118,7 @@
       <div class="header">
         <h1 class="nameHeader">Jeremiah LaRocco</h1>
         <p class="contactInfo">3455 Table Mesa Blvd. Apt i203 &bull; Boulder, CO 80305</p>
-        <p class="contactInfo">jeremiah_larocco@fastmail.com &bull;  719-761-7480</p>
+        <p class="contactInfo"><a href="mailto:jeremiah_larocco@fastmail.com">jeremiah_larocco@fastmail.com</a> &bull;  719-761-7480</p>
       </div>
 
       <div class="resumeBody">
