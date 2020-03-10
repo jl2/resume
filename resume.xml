@@ -253,7 +253,7 @@
         <div class="section">
           <h2 class="sectionHeader">Open Source</h2>
           <p>
-            In my free time I've released a number of small open source projects which are available on <a href="https://github.com/jl2">GitHub</a> and <a href="https://git.sr.ht/~jl2/">SourceHut</a>.
+            In my free time I work on a number of open source projects which are available on <a href="https://github.com/jl2">GitHub</a> and <a href="https://git.sr.ht/~jl2/">SourceHut</a>.  Most are small personal projects, but I've also made many contributions to other projects, including <a href="https://github.com/marijnh/ST-JSON">st-json</a>, a popular Common Lisp JSON library, and <a href="https://github.com/google/earthenterprise">OpenGEE</a>, the open source version of Google Earth Enterprise.
           </p>
         </div>
         <div class="section">
