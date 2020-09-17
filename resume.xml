@@ -132,18 +132,19 @@
           <h2 class="sectionHeader">Experience</h2>
           <div class="company">
             <div class="companyHeader">
-              <div class="positionDate">December - Present</div>
+              <div class="positionDate">December 2018 - Present</div>
               <div class="companyName">Thermopylae Sciences and Technology</div>
               <div class="positionTitle">Software Engineer</div>
             </div>
             <div class="companyBody">
               <ul>
-                <li>I work primarily on GEEP, a value added product based on OpenGEE.</li>
-                <li>I develop plugins and other tools to integrate OpenGEE into third party software, such as ATAK and WinTAK.</li>
-                <li>I add new features and fix bugs in OpenGEE, GEEP and the TAK plugins.</li>
+                <li>I work on the Google Earth Enterprise Platform (GEEP), a collection of value added products and services based on the open source Google Earth Enterprise software (OpenGEE).</li>
+                <li>I helped implement and benchmark a plugin for storing Google Earth data natively in S3, using the AWS C++ SDK.</li>
+                <li>I added support for triangulated irregular network (TIN) terrain data to the GEEP ATAK plugin using the Java-based ATAK plugin SDK, JNI, and C++.</li>
+                <li>I've fixed bugs and worked on several small features using C++, Python, GDAL, QGis, and PostGIS.</li>
                 <li>I review and test pull requests from my coworkers and open source developers.</li>
-                <li>I assist with our build and packaging pipelines.</li>
-                <li>I help with manual and semi-automated testing.</li>
+                <li>I assist with our build and packaging pipelines, using several AWS services (S3, EC2, etc.), Jenkins, and Docker</li>
+                <li>I help with manual and automated testing.</li>
               </ul>
             </div>
           </div>
@@ -156,11 +157,11 @@
             </div>
             <div class="companyBody">
               <ul>
-                <li>Worked on the Element software that controled our storage system.</li>
-                <li>Responsible for refactoring, and then maintaining, the drive management sub-system, which is responsible for keeping track of drives and starting and stopping the services associated with them.</li>
+                <li>Worked on the large C++ codebase of the Element software that controls the SolidFire storage system.</li>
+                <li>Responsible for refactoring, and then maintaining, the drive management sub-system, which keeps track of drives and starts and stops the services associated with them.</li>
                 <li>Worked on smaller features and enhancements, including improvements to fault detection, API improvements, and hardware monitoring.</li>
-                <li>Spent some time on the White Box Testing Team, and we added the Recorder sub-system that's responsible for structured logging inside the Element software.</li>
-                <li>Used code coverage, static analysis, and similar tools to improve code and reduce bugs.</li>
+                <li>Spent time on the White Box Testing Team, and helped add the Recorder sub-system for structured (JSON) logging.</li>
+                <li>Used valgrind, Coverity, and code coverage tools to improve code quality and reduce bugs.</li>
                 <li>Occassionally "on call" for support escalations.</li>
               </ul>
             </div>
