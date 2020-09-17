@@ -124,7 +124,7 @@
       <div class="resumeBody">
         <div class="section">
           <h2 class="sectionHeader">Summary</h2>
-          <p>Polyglot software engineer seeking remote position.</p>
+          <p>Polyglot software engineer seeking full-time position either in Boulder, CO, or working remotely.</p>
         </div>
 
         <div class="section">
@@ -145,6 +145,7 @@
                 <li>I review and test pull requests from my coworkers and open source developers.</li>
                 <li>I assist with our build and packaging pipelines, using several AWS services (S3, EC2, etc.), Jenkins, and Docker</li>
                 <li>I help with manual and automated testing.</li>
+                <li>This position is 100% remote.</li>
               </ul>
             </div>
           </div>
