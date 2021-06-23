@@ -117,7 +117,7 @@
     <div class="resume">
       <div class="header">
         <h1 class="nameHeader">Jeremiah LaRocco</h1>
-        <p class="contactInfo">3455 Table Mesa Blvd. Apt i203 &bull; Boulder, CO 80305</p>
+        <p class="contactInfo">3455 Table Mesa Dr. Apt i203 &bull; Boulder, CO 80305</p>
         <p class="contactInfo"><a href="mailto:jeremiah_larocco@fastmail.com">jeremiah_larocco@fastmail.com</a> &bull;  719-761-7480</p>
       </div>
 
@@ -132,18 +132,19 @@
           <h2 class="sectionHeader">Experience</h2>
           <div class="company">
             <div class="companyHeader">
-              <div class="positionDate">December 2018 - Present</div>
+              <div class="positionDate">December 2018 - June 2021</div>
               <div class="companyName">Thermopylae Sciences and Technology</div>
               <div class="positionTitle">Software Engineer</div>
             </div>
             <div class="companyBody">
               <ul>
                 <li>I work on the Google Earth Enterprise Platform (GEEP), a collection of value added products and services based on the open source Google Earth Enterprise software (OpenGEE).</li>
-                <li>I helped implement and benchmark a plugin for storing Google Earth data natively in S3, using the AWS C++ SDK.</li>
+                <li>I helped implement the Panoramic Management microservice and designed its functional test framework using Python, Flask, GDAL, and PostGIS.</li>
+                <li>I implemented and benchmarked a plugin for storing Google Earth data natively in S3 using the AWS C++ SDK.</li>
                 <li>I added support for triangulated irregular network (TIN) terrain data to the GEEP ATAK plugin using the Java-based ATAK plugin SDK, JNI, and C++.</li>
                 <li>I've fixed bugs and worked on several small features using C++, Python, GDAL, QGis, and PostGIS.</li>
                 <li>I review and test pull requests from my coworkers and open source developers.</li>
-                <li>I assist with our build and packaging pipelines, using several AWS services (S3, EC2, etc.), Jenkins, and Docker</li>
+                <li>I assist DevOps with our CI pipelines, using several AWS services (S3, EC2, CodeBuild, etc.), Gradle, Jenkins, and Docker</li>
                 <li>I help with manual and automated testing.</li>
                 <li>This position is 100% remote.</li>
               </ul>

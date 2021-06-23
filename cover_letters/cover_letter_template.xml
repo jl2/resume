@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+  <head>
+    <meta http-equiv="Content-Type" content="text/xml; charset=utf-8" />
+    <meta name="description" content="Jeremiah LaRocco's resume." />
+    <meta name="keywords" content="Jeremiah, LaRocco, resume" />
+    <meta name="robots" content="index, follow" />
+    <style type="text/css">
+      * {
+      font-family: inherit;
+      font-size: inherit;
+      }
+      
+      *.body {
+      font-family: serif;
+      text-align: center;
+      }
+
+      div.section {
+      margin-top: 10pt;
+      }
+
+      div.from_header {
+      font-family: monospace;
+      text-align: right;
+      }
+
+      div.to_header {
+      font-family: monospace;
+      text-align: left;
+      }
+
+      div.resume {
+      margin-left: auto;
+      margin-right: auto;
+      }
+      
+      div.resumeBody {
+      text-align: left;
+      }
+
+      h1.nameHeader {
+      font-size: 140%;
+      font-weight: bold;
+      }
+
+      p.contactInfo {
+      margin-top: -5pt;
+      }
+
+      h2.sectionHeader {
+      font-size: 140%;
+      font-weight: bold;
+      }
+
+      div.company {
+      width: 100%;
+      }
+
+      *.companyHeader {
+      width: 100%;
+      }
+
+      div.companyBody {
+      margin-top: -2pt;
+      }
+
+      *.companyName {
+      font-weight: bold;
+      border-bottom: 1pt dotted black
+      }
+
+      *.positionDate {
+      float: right;
+      font-weight: bold;
+      }
+
+      *.positionTitle {
+      text-decoration: underline;
+      }
+    </style>
+    <style type="text/css" media="screen">
+      *.body {
+      font-family: serif;
+      text-align: center;
+      width: 70%;
+      }
+
+      div.resume {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      }
+    </style>
+    <style type="text/css" media="print">
+      *.body {
+      font-family: serif;
+      text-align: center;
+      width: 100%;
+      }
+
+      div.resume {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      }
+
+      a:link {
+      color: inherit;
+      text-decoration: inherit;
+      }
+
+      a:visited {
+      color: inherit;
+      text-decoration: inherit;
+      }
+    </style>
+    
+    <title>Jeremiah LaRocco's Resume</title>
+  </head>
+  <body>
+    <div class="resume">
+      <div class="from_header">
+        <h1 class="nameHeader">Jeremiah LaRocco</h1>
+        <p class="contactInfo">Boulder, CO 80305</p>
+        <p class="contactInfo">719-761-7480</p>
+        <p class="contactInfo"><a href="mailto:jeremiah_larocco@fastmail.com">jeremiah_larocco@fastmail.com</a></p>
+      </div>
+      <div class="to_header">
+        <p>Some Company</p>
+        <p class="contactInfo">123 Main St. Suite 200</p>
+        <p class="contactInfo">Boulder, CO, 80305</p>
+      </div>
+
+      <div class="letterBody">
+        <div class="section">
+          <h2 class="sectionHeader">References</h2>
+          <p>
+            Available upon request.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
