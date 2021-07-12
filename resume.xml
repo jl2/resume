@@ -10,7 +10,7 @@
       font-family: inherit;
       font-size: inherit;
       }
-      
+
       *.body {
       font-family: serif;
       text-align: center;
@@ -29,7 +29,7 @@
       margin-left: auto;
       margin-right: auto;
       }
-      
+
       div.resumeBody {
       text-align: left;
       }
@@ -110,15 +110,23 @@
       text-decoration: inherit;
       }
     </style>
-    
+
     <title>Jeremiah LaRocco's Resume</title>
   </head>
   <body>
     <div class="resume">
       <div class="header">
-        <h1 class="nameHeader">Jeremiah LaRocco</h1>
-        <p class="contactInfo">3455 Table Mesa Dr. Apt i203 &bull; Boulder, CO 80305</p>
-        <p class="contactInfo"><a href="mailto:jeremiah_larocco@fastmail.com">jeremiah_larocco@fastmail.com</a> &bull;  719-761-7480</p>
+        <h1 class="nameHeader">
+          Jeremiah LaRocco
+        </h1>
+        <p class="contactInfo">
+          3455 Table Mesa Dr. Apt i203 &bull; Boulder, CO 80305
+        </p>
+        <p class="contactInfo">
+          <a href="mailto:jeremiah_larocco@fastmail.com">jeremiah_larocco@fastmail.com</a>
+          &bull;
+          <a href="tel:719-761-7480"> 719-761-7480 </a>
+        </p>
       </div>
 
       <div class="resumeBody">
@@ -138,15 +146,40 @@
             </div>
             <div class="companyBody">
               <ul>
-                <li>Worked on the Google Earth Enterprise Platform (GEEP), a collection of value added products and services based on the open source Google Earth Enterprise (OpenGEE) software.</li>
-                <li>Helped implement the Panoramic Management microservice and designed its functional test framework using Python, Flask, GDAL, and PostGIS.</li>
-                <li>Implemented and benchmarked a plugin for storing Google Earth data natively in S3 using the AWS C++ SDK, though it wasn't released.</li>
-                <li>Added support for triangulated irregular network (TIN) terrain data to the GEEP ATAK plugin using the Java-based ATAK plugin SDK, JNI, and C++.</li>
-                <li>Fixed bugs and worked on several small features using C++, Python, GDAL, QGis, and PostGIS.</li>
-                <li>Reviewed and tested pull requests from my coworkers and open source developers.</li>
-                <li>Assisted DevOps with our CI pipelines, using several AWS services (S3, EC2, CodeBuild, etc.), Gradle, Jenkins, and Docker</li>
-                <li>Helped with manual and automated testing.</li>
-                <li>This position was 100% remote.</li>
+                <li>
+                  Worked on the Google Earth Enterprise Platform (GEEP), a collection of value added
+                  products and services based on the open source Google Earth Enterprise (OpenGEE)
+                  software.
+                </li>
+                <li>
+                  Helped implement the Panoramic Management microservice and designed its functional
+                  test framework using Python, Flask, GDAL, and PostGIS.
+                </li>
+                <li>
+                  Implemented and benchmarked a plugin for storing Google Earth data natively in S3
+                  using the AWS C++ SDK, though it wasn't released.
+                </li>
+                <li>
+                  Added support for triangulated irregular network (TIN) terrain data to the GEEP
+                  ATAK plugin using the Java-based ATAK plugin SDK, JNI, and C++.
+                </li>
+                <li>
+                  Fixed bugs and worked on several small features using C++, Python, GDAL, QGis, and
+                  PostGIS.
+                </li>
+                <li>
+                  Reviewed and tested pull requests from my coworkers and open source developers.
+                </li>
+                <li>
+                  Assisted DevOps with our CI pipelines, using several AWS services (S3, EC2,
+                  CodeBuild, etc.), Gradle, Jenkins, and Docker
+                </li>
+                <li>
+                  Helped with manual and automated testing.
+                </li>
+                <li>
+                  This position was 100% remote.
+                </li>
               </ul>
             </div>
           </div>
@@ -159,11 +192,27 @@
             </div>
             <div class="companyBody">
               <ul>
-                <li>Worked on the Element software that controls SolidFire storage systems; a large distributed system running on Linux, written in C++ with Boost.</li>
-                <li>Responsible for refactoring, and then maintaining, the drive management sub-system, which keeps track of drives and controls the services associated with them.</li>
-                <li>Worked on smaller features and enhancements, including improvements to fault detection, API improvements, and hardware monitoring.</li>
-                <li>Spent time on the White Box Testing Team, and helped add the Recorder sub-system for structured (JSON) logging.</li>
-                <li>Used valgrind, Coverity, and code coverage tools to improve code quality and reduce bugs.</li>
+                <li>
+                  Worked on the Element software that controls SolidFire storage systems; a large
+                  distributed system running on Linux, written in C++ with Boost.
+                </li>
+                <li>
+                  Responsible for refactoring, and then maintaining, the drive management
+                  sub-system, which keeps track of drives and controls the services associated with
+                  them.
+                </li>
+                <li>
+                  Worked on smaller features and enhancements, including improvements to fault
+                  detection, API improvements, and hardware monitoring.
+                </li>
+                <li>
+                  Spent time on the White Box Testing Team, and helped add the Recorder sub-system
+                  for structured (JSON) logging.
+                </li>
+                <li>
+                  Used valgrind, Coverity, and code coverage tools to improve code quality and
+                  reduce bugs.
+                </li>
               </ul>
             </div>
           </div>
@@ -176,11 +225,25 @@
             </div>
             <div class="companyBody">
               <ul>
-                <li>Worked on the Interop translation portion of the then new CATIA Geometric Modeller (CGM) based product.  Used C++, Python and Scheme for test generation.</li>
-                <li>Used Agile development in the Productivity and Tools group to develop the internal &quot;TestCenter&quot; web application.  Used Java, JSP, JUnit, MySQL and Tomcat.</li>
-                <li>Maintained the &quot;Quality Checker&quot; (QC) component of TestCenter in C++.</li>
-                <li>Participated in a &quot;team room&quot; with Interop developers to develop the beta release of the CGM Writer component.</li>
-                <li>Participated in a &quot;team room&quot; with ACIS developers to develop of new CGM componenent.</li>
+                <li>
+                  Worked on the Interop translation portion of the then new CATIA Geometric Modeller
+                  (CGM) based product. Used C++, Python and Scheme for test generation.
+                </li>
+                <li>
+                  Used Agile development in the Productivity and Tools group to develop the internal
+                  &quot;TestCenter&quot; web application. Used Java, JSP, JUnit, MySQL and Tomcat.
+                </li>
+                <li>
+                  Maintained the &quot;Quality Checker&quot; (QC) component of TestCenter in C++.
+                </li>
+                <li>
+                  Participated in a &quot;team room&quot; with Interop developers to develop the
+                  beta release of the CGM Writer component.
+                </li>
+                <li>
+                  Participated in a &quot;team room&quot; with ACIS developers to develop of new CGM
+                  componenent.
+                </li>
               </ul>
             </div>
           </div>
@@ -193,11 +256,25 @@
             </div>
             <div class="companyBody">
               <ul>
-                <li>Initially I worked in the &quot;DBA Group&quot;, developing a web interface for creating, verifying, and managing Unique Identifier (UID) labels.</li>
-                <li>Took over development of the internal DBA website.</li>
-                <li>Created a C++ application for hand-held bar code scanners to communicate with existing inventory management system.</li>
-                <li>Volunteered for, and eventually moved to, a &quot;Systems&quot; development position, writing Jovial and x86 assembly language for the Automated Remote Tracking Station Software (ARTS).</li>
-                <li>Assisted with maintenance and deployment of ARTS at customer sites.</li>
+                <li>
+                  Initially I worked in the &quot;DBA Group&quot;, developing a web interface for
+                  creating, verifying, and managing Unique Identifier (UID) labels.
+                </li>
+                <li>
+                  Took over development of the internal DBA website.
+                </li>
+                <li>
+                  Created a C++ application for hand-held bar code scanners to communicate with
+                  existing inventory management system.
+                </li>
+                <li>
+                  Volunteered for, and eventually moved to, a &quot;Systems&quot; development
+                  position, writing Jovial and x86 assembly language for the Automated Remote
+                  Tracking Station Software (ARTS).
+                </li>
+                <li>
+                  Assisted with maintenance and deployment of ARTS at customer sites.
+                </li>
               </ul>
             </div>
           </div>
@@ -209,9 +286,16 @@
             </div>
             <div class="companyBody">
               <ul>
-                <li>Maintained 1.5 million lines of C++ code using DCE RPC, Oracle 10g, and Solaris for the server portion of the CarlX library management system.</li>
-                <li>Used Ruby to automate testing and bug reproduction.</li>
-                <li>Refactored code to improve readability and efficiency.</li>
+                <li>
+                  Maintained 1.5 million lines of C++ code using DCE RPC, Oracle 10g, and Solaris
+                  for the server portion of the CarlX library management system.
+                </li>
+                <li>
+                  Used Ruby to automate testing and bug reproduction.
+                </li>
+                <li>
+                  Refactored code to improve readability and efficiency.
+                </li>
               </ul>
             </div>
           </div>
@@ -223,9 +307,16 @@
             </div>
             <div class="companyBody">
               <ul>
-                <li>Developed call routing applications for Verizon's Next Generation Service Network (NGSN).</li>
-                <li>Performed QA on applications built by other developers.</li>
-                <li>Performed troubleshooting and corrected trouble tickets.</li>
+                <li>
+                  Developed call routing applications for Verizon's Next Generation Service Network
+                  (NGSN).
+                </li>
+                <li>
+                  Performed QA on applications built by other developers.
+                </li>
+                <li>
+                  Performed troubleshooting and corrected trouble tickets.
+                </li>
               </ul>
             </div>
           </div>
@@ -254,7 +345,13 @@
         <div class="section">
           <h2 class="sectionHeader">Open Source</h2>
           <p>
-            In my free time I work on a number of open source projects which are available on <a href="https://github.com/jl2">GitHub</a> and <a href="https://git.sr.ht/~jl2/">SourceHut</a>.  Most are small personal projects, but I've also made many contributions to other projects, including <a href="https://github.com/marijnh/ST-JSON">st-json</a>, a popular Common Lisp JSON library, and <a href="https://github.com/google/earthenterprise">OpenGEE</a>, the open source version of Google Earth Enterprise.
+            In my free time I work on a number of open source projects which are available on
+            <a href="https://github.com/jl2">GitHub</a> and
+            <a href="https://git.sr.ht/~jl2/">SourceHut</a>.  Most are small personal projects, but
+            I've also made many contributions to other projects, including
+            <a href="https://github.com/marijnh/ST-JSON">st-json</a>, a popular Common Lisp JSON
+            library, and <a href="https://github.com/google/earthenterprise">OpenGEE</a>, the open
+            source version of Google Earth Enterprise.
           </p>
         </div>
         <div class="section">
