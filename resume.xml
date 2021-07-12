@@ -159,8 +159,8 @@
             </div>
             <div class="companyBody">
               <ul>
-                <li>Worked on the large C++ codebase of the Element software that controls the SolidFire storage system.</li>
-                <li>Responsible for refactoring, and then maintaining, the drive management sub-system, which keeps track of drives and starts and stops the services associated with them.</li>
+                <li>Worked on the Element software that controls SolidFire storage systems; a large distributed system running on Linux, written in C++ with Boost.</li>
+                <li>Responsible for refactoring, and then maintaining, the drive management sub-system, which keeps track of drives and controls the services associated with them.</li>
                 <li>Worked on smaller features and enhancements, including improvements to fault detection, API improvements, and hardware monitoring.</li>
                 <li>Spent time on the White Box Testing Team, and helped add the Recorder sub-system for structured (JSON) logging.</li>
                 <li>Used valgrind, Coverity, and code coverage tools to improve code quality and reduce bugs.</li>
@@ -176,7 +176,7 @@
             </div>
             <div class="companyBody">
               <ul>
-                <li>Worked on the Interop translation portion of the new CATIA Geometric Modeller (CGM) based product.  Used C++, Python and Scheme for test generation.</li>
+                <li>Worked on the Interop translation portion of the then new CATIA Geometric Modeller (CGM) based product.  Used C++, Python and Scheme for test generation.</li>
                 <li>Used Agile development in the Productivity and Tools group to develop the internal &quot;TestCenter&quot; web application.  Used Java, JSP, JUnit, MySQL and Tomcat.</li>
                 <li>Maintained the &quot;Quality Checker&quot; (QC) component of TestCenter in C++.</li>
                 <li>Participated in a &quot;team room&quot; with Interop developers to develop the beta release of the CGM Writer component.</li>
@@ -193,7 +193,7 @@
             </div>
             <div class="companyBody">
               <ul>
-                <li>Initially worked in the &quot;DBA Group&quot;, developing a web interface for creating, verifying, and managing Unique Identifier (UID) labels.</li>
+                <li>Initially I worked in the &quot;DBA Group&quot;, developing a web interface for creating, verifying, and managing Unique Identifier (UID) labels.</li>
                 <li>Took over development of the internal DBA website.</li>
                 <li>Created a C++ application for hand-held bar code scanners to communicate with existing inventory management system.</li>
                 <li>Volunteered for, and eventually moved to, a &quot;Systems&quot; development position, writing Jovial and x86 assembly language for the Automated Remote Tracking Station Software (ARTS).</li>
