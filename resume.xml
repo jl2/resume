@@ -144,7 +144,7 @@
                 <li>Added support for triangulated irregular network (TIN) terrain data to the GEEP ATAK plugin using the Java-based ATAK plugin SDK, JNI, and C++.</li>
                 <li>Fixed bugs and worked on several small features using C++, Python, GDAL, QGis, and PostGIS.</li>
                 <li>Reviewed and tested pull requests from my coworkers and open source developers.</li>
-                <li>Assested DevOps with our CI pipelines, using several AWS services (S3, EC2, CodeBuild, etc.), Gradle, Jenkins, and Docker</li>
+                <li>Assisted DevOps with our CI pipelines, using several AWS services (S3, EC2, CodeBuild, etc.), Gradle, Jenkins, and Docker</li>
                 <li>Helped with manual and automated testing.</li>
                 <li>This position was 100% remote.</li>
               </ul>
