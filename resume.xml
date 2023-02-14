@@ -132,12 +132,47 @@
       <div class="resumeBody">
         <div class="section">
           <h2 class="sectionHeader">Summary</h2>
-          <p>Software engineer seeking full-time remote employment.</p>
+          <p>Software engineer seeking full-time employment in the western United States, or remote.</p>
         </div>
 
         <div class="section">
 
           <h2 class="sectionHeader">Experience</h2>
+          <div class="company">
+            <div class="companyHeader">
+              <div class="positionDate">January 2022 - Present</div>
+              <div class="companyName">Anark</div>
+              <div class="positionTitle">Software Engineer</div>
+            </div>
+            <div class="companyBody">
+              <ul>
+                <li>
+                  I work on Anark Workstation, a desktop (.NET, WPF) application for viewing
+                  and manipulating CAD documents and publishing to PDF or to Anark Collaborate.
+                </li>
+                <li>
+                  I'm currently helping on a project to replace our legacy OpenGL renderer with the
+                  WebGL renderer used by Anark Collaborate - using the Chromium Embedded Framework
+                  and CefSharp.  My responsibilities on the project so far have been related to
+                  Javascript interop and improving performance.
+                </li>
+                <li>
+                  I've also added small features and fixed bugs in our integration with
+                  Anark Collaborate, including changes to Anark Core XML (used to bind user
+                  defined attributes to CAD data), and improvements to the HTTP publishing in Anark
+                  Workstation.
+                </li>
+                <li>
+                  I was responsible for largely rewriting our Catia importer using C++/CLI and the
+                  Spatial Interop library to get more accurate results with better performance.
+                </li>
+                <li>
+                  I've also helped fix import bugs in the other CAD formats, including NX with
+                  NXOpen, Creo with ProToolkit, and other formats using Techsoft's HOOPS Exchange.
+                </li>
+              </ul>
+            </div>
+          </div>
           <div class="company">
             <div class="companyHeader">
               <div class="positionDate">December 2018 - June 2021</div>
