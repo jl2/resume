@@ -9,6 +9,7 @@
       * {
       font-family: inherit;
       font-size: inherit;
+      font-size: 12pt;
       }
 
       *.body {
@@ -21,6 +22,7 @@
       }
 
       div.header {
+      margin-top: 0pt;
       font-family: monospace;
       text-align: center;
       }
@@ -54,12 +56,19 @@
 
       *.companyHeader {
       width: 100%;
+      margin-top: 12pt;
       }
 
       div.companyBody {
-      margin-top: -2pt;
+      margin-top: -6pt;
+      font-size: 13pt;
       }
-
+      ul {
+      font-size: inherit;
+      }
+      li {
+      font-size: inherit;
+      }
       *.companyName {
       font-weight: bold;
       border-bottom: 1pt dotted black
@@ -71,7 +80,6 @@
       }
 
       *.positionTitle {
-      text-decoration: underline;
       }
     </style>
     <style type="text/css" media="screen">
@@ -147,28 +155,30 @@
             <div class="companyBody">
               <ul>
                 <li>
-                  I work on Anark Workstation, a desktop (.NET, WPF) application for viewing
-                  and manipulating CAD documents and publishing to PDF or to Anark Collaborate.
+                  I work on Anark Workstation, which imports and processes CAD
+                  files from different systems (Catia, NX, Creo, etc.) and publishes the
+                  processed data (models, imagery, attributes, etc.) to Anark Collaborate
+                  for sharing and PDF for offline publishing.
                 </li>
                 <li>
-                  I'm currently helping on a project to replace our legacy OpenGL renderer with the
-                  WebGL renderer used by Anark Collaborate - using the Chromium Embedded Framework
-                  and CefSharp.  My responsibilities on the project so far have been related to
-                  Javascript interop and improving performance.
+                  I refactored our Catia importer using C++/CLI and the Spatial Interop libraries
+                  to get more accurate import results with better performance.
                 </li>
                 <li>
-                  I've also added small features and fixed bugs in our integration with
-                  Anark Collaborate, including changes to Anark Core XML (used to bind user
-                  defined attributes to CAD data), and improvements to the HTTP publishing in Anark
-                  Workstation.
+                  I worked on a project to replace the OpenGL renderer in Anark Workstation
+                  with the WebGL renderer from Anark Collaborate. This used the Chromium
+                  Embedded Framework (CEF) and CefSharp to share the renderer between desktop and
+                  web applications. I was responsible for performance tuning and optimizing the
+                  Javascript interface to the renderer, as well as generally helping out.
                 </li>
                 <li>
-                  I was responsible for largely rewriting our Catia importer using C++/CLI and the
-                  Spatial Interop library to get more accurate results with better performance.
+                  I've worked on several smaller features, including adding hyperlink support to
+                  Anark Core XML (used to bind user defined attributes to CAD data), and
+                  improvements to our Process Planning tools.
                 </li>
                 <li>
-                  I've also helped fix import bugs in the other CAD formats, including NX with
-                  NXOpen, Creo with ProToolkit, and other formats using Techsoft's HOOPS Exchange.
+                  I've also fixed other bugs as necessary, including in the other CAD importers,
+                  with our Collaborate integration, and general bugs in the software.
                 </li>
               </ul>
             </div>
@@ -199,21 +209,11 @@
                   ATAK plugin using the Java-based ATAK plugin SDK, JNI, and C++.
                 </li>
                 <li>
-                  Fixed bugs and worked on several small features using C++, Python, GDAL, QGis, and
-                  PostGIS.
-                </li>
-                <li>
-                  Reviewed and tested pull requests from my coworkers and open source developers.
-                </li>
-                <li>
                   Assisted DevOps with our CI pipelines, using several AWS services (S3, EC2,
                   CodeBuild, etc.), Gradle, Jenkins, and Docker
                 </li>
                 <li>
                   Helped with manual and automated testing.
-                </li>
-                <li>
-                  This position was 100% remote.
                 </li>
               </ul>
             </div>
@@ -241,12 +241,12 @@
                   detection, API improvements, and hardware monitoring.
                 </li>
                 <li>
-                  Spent time on the White Box Testing Team, and helped add the Recorder sub-system
-                  for structured (JSON) logging.
+                  I helped start the short-lived White Box Testing Team, which added the Recorder
+                  sub-system for structured (JSON) logging.
                 </li>
                 <li>
-                  Used valgrind, Coverity, and code coverage tools to improve code quality and
-                  reduce bugs.
+                  Used valgrind, Coverity, and coverage tools to improve code quality and
+                  kill bugs.
                 </li>
               </ul>
             </div>
@@ -282,7 +282,6 @@
               </ul>
             </div>
           </div>
-          <br/>
           <div class="company">
             <div class="companyHeader">
               <div class="positionDate">May 2007 - October 2008</div>
@@ -328,9 +327,6 @@
                 <li>
                   Used Ruby to automate testing and bug reproduction.
                 </li>
-                <li>
-                  Refactored code to improve readability and efficiency.
-                </li>
               </ul>
             </div>
           </div>
@@ -343,14 +339,8 @@
             <div class="companyBody">
               <ul>
                 <li>
-                  Developed call routing applications for Verizon's Next Generation Service Network
-                  (NGSN).
-                </li>
-                <li>
-                  Performed QA on applications built by other developers.
-                </li>
-                <li>
-                  Performed troubleshooting and corrected trouble tickets.
+                  Developed, debugged, and performed QA on call routing applications for Verizon's
+                  Next Generation Service Network (NGSN).
                 </li>
               </ul>
             </div>

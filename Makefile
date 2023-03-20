@@ -1,5 +1,5 @@
-resume.pdf: resume.xml
-	wkhtmltopdf -B 20mm -L 20mm -R 20mm -T 16mm ./resume.xml resume.pdf
+resume.pdf: resume.xml Makefile
+	wkhtmltopdf -B 25mm -L 25mm -R 25mm -T 25mm ./resume.xml resume.pdf
 
 # To add a cover letter, copy the template in cover_letters and add a Make rule
 # to build it
