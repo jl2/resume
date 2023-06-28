@@ -155,30 +155,28 @@
             <div class="companyBody">
               <ul>
                 <li>
-                  I work on Anark Workstation, which imports and processes CAD
-                  files from different systems (Catia, NX, Creo, etc.) and publishes the
-                  processed data (models, imagery, attributes, etc.) to Anark Collaborate
-                  for sharing and PDF for offline publishing.
+                  I work on Anark Workstation, a Windows application (WPF) that imports and
+                  processes CAD files from different systems (Catia, NX, Creo, etc.) and
+                  allows the user to add animations, process plans, annotations, notes, etc.
+                  before publishing to the Anark Collaborate web platform and 3D PDF.
                 </li>
                 <li>
-                  I refactored our Catia importer using C++/CLI and the Spatial Interop libraries
-                  to get more accurate import results with better performance.
+                  I refactored the Catia importer - using C++/CLI and the Spatial Interop
+                  libraries - to get more accurate import results with better performance.
                 </li>
                 <li>
-                  I worked on a project to replace the OpenGL renderer in Anark Workstation
-                  with the WebGL renderer from Anark Collaborate. This used the Chromium
-                  Embedded Framework (CEF) and CefSharp to share the renderer between desktop and
-                  web applications. I was responsible for performance tuning and optimizing the
-                  Javascript interface to the renderer, as well as generally helping out.
+                  I assisted on the project to replace the OpenGL renderer with the WebGL renderer
+                  from Anark Collaborate using the Chromium Embedded Framework.  I worked on
+                  performance tuning and optimizing the Javascript interface to the renderer,
+                  as well as other bug fixes.
                 </li>
                 <li>
-                  I've worked on several smaller features, including adding hyperlink support to
-                  Anark Core XML (used to bind user defined attributes to CAD data), and
-                  improvements to our Process Planning tools.
+                  I've worked on several smaller features in both Anark Workstatino and Collaborate,
+                  including upgrades to 3rd party libraries and improvements to our process planning
+                  tools.
                 </li>
                 <li>
-                  I've also fixed other bugs as necessary, including in the other CAD importers,
-                  with our Collaborate integration, and general bugs in the software.
+                  Tools used include WPF, ReSharper, C#, C++, C++/CLI, Docker, and Typescript.
                 </li>
               </ul>
             </div>
@@ -194,7 +192,7 @@
                 <li>
                   Worked on the Google Earth Enterprise Platform (GEEP), a collection of value added
                   products and services based on the open source Google Earth Enterprise (OpenGEE)
-                  software.
+                  software.  Tools used include GDAL, libTiff, libJpeg, PostGIS, and Apache.
                 </li>
                 <li>
                   Helped implement the Panoramic Management microservice and designed its functional
@@ -202,7 +200,7 @@
                 </li>
                 <li>
                   Implemented and benchmarked a plugin for storing Google Earth data natively in S3
-                  using the AWS C++ SDK, though it wasn't released.
+                  using the AWS C++ SDK.
                 </li>
                 <li>
                   Added support for triangulated irregular network (TIN) terrain data to the GEEP
@@ -241,7 +239,7 @@
                   detection, API improvements, and hardware monitoring.
                 </li>
                 <li>
-                  I helped start the short-lived White Box Testing Team, which added the Recorder
+                  I helped start the White Box Testing Team, which added the Recorder
                   sub-system for structured (JSON) logging.
                 </li>
                 <li>
@@ -251,7 +249,6 @@
               </ul>
             </div>
           </div>
-
           <div class="company">
             <div class="companyHeader">
               <div class="positionDate">March 2009 - June 2013</div>
@@ -261,8 +258,12 @@
             <div class="companyBody">
               <ul>
                 <li>
-                  Worked on the Interop translation portion of the then new CATIA Geometric Modeller
-                  (CGM) based product. Used C++, Python and Scheme for test generation.
+                  Worked on Interop translation for the CATIA Geometric Modeller (CGM)
+                  product. Used C++, Python and Scheme for test generation, on Windows and Linux.
+                </li>
+                <li>
+                  Helped write the first version of the 3DScript Windows application, which is used
+                  to demo features of the Interop and CGM libraries.
                 </li>
                 <li>
                   Used Agile development in the Productivity and Tools group to develop the internal
@@ -295,9 +296,6 @@
                   creating, verifying, and managing Unique Identifier (UID) labels.
                 </li>
                 <li>
-                  Took over development of the internal DBA website.
-                </li>
-                <li>
                   Created a C++ application for hand-held bar code scanners to communicate with
                   existing inventory management system.
                 </li>
@@ -321,11 +319,7 @@
             <div class="companyBody">
               <ul>
                 <li>
-                  Maintained 1.5 million lines of C++ code using DCE RPC, Oracle 10g, and Solaris
-                  for the server portion of the CarlX library management system.
-                </li>
-                <li>
-                  Used Ruby to automate testing and bug reproduction.
+                  Maintenance on a large C++ codebase running on Solaris and using Oracle database.
                 </li>
               </ul>
             </div>
