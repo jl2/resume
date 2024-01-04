@@ -79,6 +79,8 @@
       font-weight: bold;
       }
 
+      *.location {
+      }
       *.positionTitle {
       }
     </style>
@@ -128,7 +130,9 @@
           Jeremiah LaRocco
         </h1>
         <p class="contactInfo">
-          3455 Table Mesa Dr. Apt i203 &bull; Boulder, CO 80305
+          <address>
+            3455 Table Mesa Dr. Apt i203 &bull; Boulder, CO 80305
+          </address>
         </p>
         <p class="contactInfo">
           <a href="mailto:jeremiah_larocco@fastmail.com">jeremiah_larocco@fastmail.com</a>
@@ -140,7 +144,7 @@
       <div class="resumeBody">
         <div class="section">
           <h2 class="sectionHeader">Summary</h2>
-          <p>Software engineer seeking full-time employment in the western United States, or remote.</p>
+          <p>Software engineer seeking full-time employment in the western United States.</p>
         </div>
 
         <div class="section">
@@ -148,32 +152,37 @@
           <h2 class="sectionHeader">Experience</h2>
           <div class="company">
             <div class="companyHeader">
-              <div class="positionDate">January 2022 - Present</div>
               <div class="companyName">Anark</div>
-              <div class="positionTitle">Software Engineer</div>
+              <div class="positionDate">January 2022 - Present</div>
+              <div class="location">Boulder, CO (hybrid)</div>
+              <div class="positionTitle">Tech Lead/Software Engineer, CAD Translation</div>
             </div>
             <div class="companyBody">
               <ul>
                 <li>
-                  I work on Anark Workstation, a Windows application (WPF) that imports and
-                  processes CAD files from different systems (Catia, NX, Creo, etc.) and
-                  allows the user to add animations, process plans, annotations, notes, etc.
-                  before publishing to the Anark Collaborate web platform and 3D PDF.
+                  As technical lead for the CAD Translation team I coordinate with project
+                  management, QA, support, and other stakeholders to coordinate and track
+                  features and bugs, and prioritize incoming work for the team.
+                </li>
+                <li>
+                  I mainly work on Anark Workstation (AW), a Windows application that imports and
+                  processes CAD models (Catia, NX, Creo, etc.), allowing the user to add
+                  animations, process plans, annotations, notes, etc. and then publish
+                  to the Anark Collaborate (AC) web platform and 3D PDF.
                 </li>
                 <li>
                   I refactored the Catia importer - using C++/CLI and the Spatial Interop
                   libraries - to get more accurate import results with better performance.
                 </li>
                 <li>
-                  I assisted on the project to replace the OpenGL renderer with the WebGL renderer
-                  from Anark Collaborate using the Chromium Embedded Framework.  I worked on
+                  I assisted on a project to replace AW's OpenGL renderer with the WebGL renderer
+                  from AC using the Chromium Embedded Framework.  I worked on
                   performance tuning and optimizing the Javascript interface to the renderer,
-                  as well as other bug fixes.
+                  as well as fixing bugs.
                 </li>
                 <li>
-                  I've worked on several smaller features in both Anark Workstatino and Collaborate,
-                  including upgrades to 3rd party libraries and improvements to our process planning
-                  tools.
+                  I've worked on several smaller features in both AW and AC, including upgrades
+                  to 3rd party libraries and improvements to our process planning tools.
                 </li>
                 <li>
                   Tools used include WPF, ReSharper, C#, C++, C++/CLI, Docker, and Typescript.
@@ -183,8 +192,9 @@
           </div>
           <div class="company">
             <div class="companyHeader">
-              <div class="positionDate">December 2018 - June 2021</div>
               <div class="companyName">Thermopylae Sciences and Technology</div>
+              <div class="positionDate">December 2018 - June 2021</div>
+              <div class="location">Boulder, CO (fully remote)</div>
               <div class="positionTitle">Software Engineer</div>
             </div>
             <div class="companyBody">
@@ -210,17 +220,15 @@
                   Assisted DevOps with our CI pipelines, using several AWS services (S3, EC2,
                   CodeBuild, etc.), Gradle, Jenkins, and Docker
                 </li>
-                <li>
-                  Helped with manual and automated testing.
-                </li>
               </ul>
             </div>
           </div>
 
           <div class="company">
             <div class="companyHeader">
-              <div class="positionDate">July 2013 - November 2018</div>
               <div class="companyName">NetApp (formerly SolidFire)</div>
+              <div class="positionDate">July 2013 - November 2018</div>
+              <div class="location">Boulder, CO (fully remote)</div>
               <div class="positionTitle">Software Engineer</div>
             </div>
             <div class="companyBody">
@@ -251,8 +259,9 @@
           </div>
           <div class="company">
             <div class="companyHeader">
-              <div class="positionDate">March 2009 - June 2013</div>
               <div class="companyName">Spatial Corporation</div>
+              <div class="positionDate">March 2009 - June 2013</div>
+              <div class="location">Boulder, CO (fully remote)</div>
               <div class="positionTitle">Software Engineer</div>
             </div>
             <div class="companyBody">
@@ -285,8 +294,9 @@
           </div>
           <div class="company">
             <div class="companyHeader">
-              <div class="positionDate">May 2007 - October 2008</div>
               <div class="companyName">L3 Communications</div>
+              <div class="positionDate">May 2007 - October 2008</div>
+              <div class="location">Boulder, CO (fully remote)</div>
               <div class="positionTitle">Software Engineer</div>
             </div>
             <div class="companyBody">
@@ -314,6 +324,7 @@
             <div class="companyHeader">
               <div class="positionDate">March 2007 - May 2007</div>
               <div class="companyName">The Library Corporation</div>
+              <div class="location">Boulder, CO (hybrid)</div>
               <div class="positionTitle">Software Engineer</div>
             </div>
             <div class="companyBody">
@@ -328,6 +339,7 @@
             <div class="companyHeader">
               <div class="positionDate">March 2006 - February 2007</div>
               <div class="companyName">Verizon Business</div>
+              <div class="location">Boulder, CO (hybrid)</div>
               <div class="positionTitle">Application Developer</div>
             </div>
             <div class="companyBody">
@@ -341,8 +353,9 @@
           </div>
           <div class="company">
             <div class="companyHeader">
-              <div class="positionDate">February 2004 - March 2006</div>
               <div class="companyName">Carmichael Training Systems</div>
+              <div class="positionDate">February 2004 - March 2006</div>
+              <div class="location">Colorado Springs, CO</div>
               <div class="positionTitle">Junior Programmer</div>
             </div>
           </div>
@@ -352,6 +365,7 @@
           <div class="company">
             <div class="companyHeader">
               <div class="positionDate">2000-2004</div>
+              <div class="location">Colorado Springs, CO</div>
               <div class="companyName">University of Colorado At Colorado Springs</div>
             </div>
             <div class="companyBody">
